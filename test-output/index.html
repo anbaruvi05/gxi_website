@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\ANBARUVI\AppData\Local\Temp\testng-eclipse-2121558248\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 4 failed,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="loginPage">loginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="postPage">postPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG" hash-for-method="trashPage">trashPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@name=&apos;action&apos;]&quot;}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-6T1R2HF&apos;, ip: &apos;192.168.225.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=//*[@name=&apos;action&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:45)
+	at com.gxiglobal.baseclass.GXI_BaseClass.dropdown(GXI_BaseClass.java:247)
+	at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.postPage(GXI_PostDelete_Runner_TestNG.java:54)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@name=&apos;action&apos;]&quot;}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-6T1R2HF&apos;, ip: &apos;192.168.225.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=//*[@name=&apos;action&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:45)
+	at com.gxiglobal.baseclass.GXI_BaseClass.dropdown(GXI_BaseClass.java:247)
+	at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.postPage(GXI_PostDelete_Runner_TestNG.java:54)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[contains(text(),&apos;Trash &apos;)])[2]&quot;}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-6T1R2HF&apos;, ip: &apos;192.168.225.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=(//*[contains(text(),&apos;Trash &apos;)])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.gxiglobal.baseclass.GXI_BaseClass.clickonElement(GXI_BaseClass.java:194)
+	at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.trashPage(GXI_PostDelete_Runner_TestNG.java:65)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[contains(text(),&apos;Trash &apos;)])[2]&quot;}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-6T1R2HF&apos;, ip: &apos;192.168.225.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=(//*[contains(text(),&apos;Trash &apos;)])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.gxiglobal.baseclass.GXI_BaseClass.clickonElement(GXI_BaseClass.java:194)
+	at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.trashPage(GXI_PostDelete_Runner_TestNG.java:65)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage">
+                  </a> <!-- loginPage -->
+                  <span class="method-name">loginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPage">
+                  </a> <!-- postPage -->
+                  <span class="method-name">postPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trashPage">
+                  </a> <!-- trashPage -->
+                  <span class="method-name">trashPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ANBARUVI\AppData\Local\Temp\testng-eclipse-2121558248\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'trashPage')
+data.setCell(0, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(0, 3, 63116);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'trashPage')
+data.setCell(1, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(1, 3, 55003);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'trashPage')
+data.setCell(2, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(2, 3, 47247);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'trashPage')
+data.setCell(3, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(3, 3, 45881);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'trashPage')
+data.setCell(4, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(4, 3, 45875);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'trashPage')
+data.setCell(5, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(5, 3, 41838);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'trashPage')
+data.setCell(6, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(6, 3, 41272);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'trashPage')
+data.setCell(7, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(7, 3, 38345);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'trashPage')
+data.setCell(8, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(8, 3, 37715);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'trashPage')
+data.setCell(9, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(9, 3, 36371);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'trashPage')
+data.setCell(10, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(10, 3, 35901);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'trashPage')
+data.setCell(11, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(11, 3, 35312);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'trashPage')
+data.setCell(12, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(12, 3, 34936);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'trashPage')
+data.setCell(13, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(13, 3, 34858);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'trashPage')
+data.setCell(14, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(14, 3, 34445);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'postPage')
+data.setCell(15, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(15, 3, 33944);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'postPage')
+data.setCell(16, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(16, 3, 33320);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'trashPage')
+data.setCell(17, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(17, 3, 33285);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'postPage')
+data.setCell(18, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(18, 3, 33210);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'postPage')
+data.setCell(19, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(19, 3, 33167);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'postPage')
+data.setCell(20, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(20, 3, 33164);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'postPage')
+data.setCell(21, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(21, 3, 32838);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'postPage')
+data.setCell(22, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(22, 3, 32680);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'postPage')
+data.setCell(23, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(23, 3, 32597);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'postPage')
+data.setCell(24, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(24, 3, 32464);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'postPage')
+data.setCell(25, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(25, 3, 32308);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'postPage')
+data.setCell(26, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(26, 3, 32173);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'postPage')
+data.setCell(27, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(27, 3, 31830);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'postPage')
+data.setCell(28, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(28, 3, 31316);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'postPage')
+data.setCell(29, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(29, 3, 31236);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'postPage')
+data.setCell(30, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(30, 3, 30890);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'postPage')
+data.setCell(31, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(31, 3, 26543);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'postPage')
+data.setCell(32, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(32, 3, 14018);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'postPage')
+data.setCell(33, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(33, 3, 13282);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'trashPage')
+data.setCell(34, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(34, 3, 10747);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'trashPage')
+data.setCell(35, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(35, 3, 10053);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'loginPage')
+data.setCell(36, 2, 'com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG')
+data.setCell(36, 3, 9626);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">categoriesPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">loginPage</span>
+                <span class="method-start">24961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">34638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">65958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">97792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">129031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">161714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">194927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">227104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">261052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">293893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">324785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">358110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">390711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">423878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">457052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">489364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPage</span>
+                <span class="method-start">521832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">postPage</span>
+                <span class="method-start">548378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">postPage</span>
+                <span class="method-start">562413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">575698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">610637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">643924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">678786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">714101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">750475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">796353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">834071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">869974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">908321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">942768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">984608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">1025886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">1089010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">1134893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">trashPage</span>
+                <span class="method-start">1182142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">trashPage</span>
+                <span class="method-start">1237148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">trashPage</span>
+                <span class="method-start">1247899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1258240 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

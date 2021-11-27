@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="1" total="38" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1233147" started-at="2021-11-27T10:03:42 IST" finished-at="2021-11-27T10:24:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1233147" started-at="2021-11-27T10:03:42 IST" finished-at="2021-11-27T10:24:15 IST">
+      <class name="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="setUp" is-config="true" duration-ms="24819" started-at="2021-11-27T10:03:17 IST" finished-at="2021-11-27T10:03:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="loginPage" duration-ms="9626" started-at="2021-11-27T10:03:42 IST" finished-at="2021-11-27T10:03:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="31316" started-at="2021-11-27T10:03:52 IST" finished-at="2021-11-27T10:04:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="31830" started-at="2021-11-27T10:04:23 IST" finished-at="2021-11-27T10:04:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="31236" started-at="2021-11-27T10:04:55 IST" finished-at="2021-11-27T10:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="32680" started-at="2021-11-27T10:05:26 IST" finished-at="2021-11-27T10:05:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="33210" started-at="2021-11-27T10:05:59 IST" finished-at="2021-11-27T10:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="32173" started-at="2021-11-27T10:06:32 IST" finished-at="2021-11-27T10:07:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="33944" started-at="2021-11-27T10:07:04 IST" finished-at="2021-11-27T10:07:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="32838" started-at="2021-11-27T10:07:38 IST" finished-at="2021-11-27T10:08:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="30890" started-at="2021-11-27T10:08:11 IST" finished-at="2021-11-27T10:08:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="33320" started-at="2021-11-27T10:08:42 IST" finished-at="2021-11-27T10:09:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="32597" started-at="2021-11-27T10:09:15 IST" finished-at="2021-11-27T10:09:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="33164" started-at="2021-11-27T10:09:48 IST" finished-at="2021-11-27T10:10:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="33167" started-at="2021-11-27T10:10:21 IST" finished-at="2021-11-27T10:10:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="32308" started-at="2021-11-27T10:10:54 IST" finished-at="2021-11-27T10:11:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="32464" started-at="2021-11-27T10:11:27 IST" finished-at="2021-11-27T10:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="26543" started-at="2021-11-27T10:11:59 IST" finished-at="2021-11-27T10:12:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="FAIL" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="14018" started-at="2021-11-27T10:12:26 IST" finished-at="2021-11-27T10:12:40 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='action']"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=//*[@name='action']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='action']"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=//*[@name='action']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+at com.gxiglobal.baseclass.GXI_BaseClass.dropdown(GXI_BaseClass.java:247)
+at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.postPage(GXI_PostDelete_Runner_TestNG.java:54)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="FAIL" signature="postPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="postPage" duration-ms="13282" started-at="2021-11-27T10:12:40 IST" finished-at="2021-11-27T10:12:53 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='action']"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=//*[@name='action']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='action']"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=//*[@name='action']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+at com.gxiglobal.baseclass.GXI_BaseClass.dropdown(GXI_BaseClass.java:247)
+at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.postPage(GXI_PostDelete_Runner_TestNG.java:54)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="34936" started-at="2021-11-27T10:12:53 IST" finished-at="2021-11-27T10:13:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="33285" started-at="2021-11-27T10:13:28 IST" finished-at="2021-11-27T10:14:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="34858" started-at="2021-11-27T10:14:01 IST" finished-at="2021-11-27T10:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="35312" started-at="2021-11-27T10:14:36 IST" finished-at="2021-11-27T10:15:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="36371" started-at="2021-11-27T10:15:11 IST" finished-at="2021-11-27T10:15:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="45875" started-at="2021-11-27T10:15:48 IST" finished-at="2021-11-27T10:16:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="37715" started-at="2021-11-27T10:16:34 IST" finished-at="2021-11-27T10:17:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="35901" started-at="2021-11-27T10:17:11 IST" finished-at="2021-11-27T10:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="38345" started-at="2021-11-27T10:17:47 IST" finished-at="2021-11-27T10:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="34445" started-at="2021-11-27T10:18:26 IST" finished-at="2021-11-27T10:19:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="41838" started-at="2021-11-27T10:19:00 IST" finished-at="2021-11-27T10:19:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="41272" started-at="2021-11-27T10:19:42 IST" finished-at="2021-11-27T10:20:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="63116" started-at="2021-11-27T10:20:23 IST" finished-at="2021-11-27T10:21:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="45881" started-at="2021-11-27T10:21:26 IST" finished-at="2021-11-27T10:22:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="47247" started-at="2021-11-27T10:22:12 IST" finished-at="2021-11-27T10:22:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="55003" started-at="2021-11-27T10:22:59 IST" finished-at="2021-11-27T10:23:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="FAIL" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="10747" started-at="2021-11-27T10:23:54 IST" finished-at="2021-11-27T10:24:05 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Trash ')])[2]"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=(//*[contains(text(),'Trash ')])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Trash ')])[2]"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=(//*[contains(text(),'Trash ')])[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.gxiglobal.baseclass.GXI_BaseClass.clickonElement(GXI_BaseClass.java:194)
+at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.trashPage(GXI_PostDelete_Runner_TestNG.java:65)
+at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="FAIL" signature="trashPage()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="trashPage" duration-ms="10053" started-at="2021-11-27T10:24:05 IST" finished-at="2021-11-27T10:24:15 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Trash ')])[2]"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=(//*[contains(text(),'Trash ')])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(text(),'Trash ')])[2]"}
+  (Session info: MicrosoftEdge=93.0.961.52)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-6T1R2HF', ip: '192.168.225.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 93.0.961.52, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63581}, msedge: {msedgedriverVersion: 93.0.961.52 (55ddfa3ef85052..., userDataDir: C:\Users\ANBARUVI\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7e95478baa0aac94e6f310016e10699
+*** Element info: {Using=xpath, value=(//*[contains(text(),'Trash ')])[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.gxiglobal.baseclass.GXI_BaseClass.clickonElement(GXI_BaseClass.java:194)
+at com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG.trashPage(GXI_PostDelete_Runner_TestNG.java:65)
+at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trashPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG@36b4cef0]" name="tearDown" is-config="true" duration-ms="6620" started-at="2021-11-27T10:24:16 IST" finished-at="2021-11-27T10:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

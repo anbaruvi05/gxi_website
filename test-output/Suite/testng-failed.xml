@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <parameter name="browser2" value="chrome"/>
+    <parameter name="browser1" value="edge"/>
+    <classes>
+      <class name="com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG">
+        <methods>
+          <include name="posDeletePage"/>
+          <include name="tearDown"/>
+          <include name="postDeletePage"/>
+          <include name="lanuchBro"/>
+        </methods>
+      </class> <!-- com.gxiglobal.testrunner.GXI_PostDelete_Runner_TestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
