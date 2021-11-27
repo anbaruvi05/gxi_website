@@ -45,7 +45,7 @@ public class GXI_PostDelete_Runner_TestNG extends GXI_BaseClass {
 		clickonElement(pom.getAdminLoginPage().getClick_on_login_btn());
 	}
 
-	@Test(enabled = false,invocationCount = 18)
+	@Test(enabled = true,invocationCount = 1)
 	public void postPage()  {
 		Page_Object_Mager_GXI pom = new Page_Object_Mager_GXI(driver);
 		log.info("Click on Post_Button");
@@ -58,7 +58,7 @@ public class GXI_PostDelete_Runner_TestNG extends GXI_BaseClass {
 		clickonElement(pom.getPostPage().getClick_apply_btn());
 	}
 
-	@Test(enabled = false,invocationCount = 18)
+	@Test(enabled = true,invocationCount = 1)
 	public void trashPage()  {
 		Page_Object_Mager_GXI pom = new Page_Object_Mager_GXI(driver);
 		log.info("Click on Trash Button");
